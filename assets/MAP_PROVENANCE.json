@@ -1,0 +1,11 @@
+{
+  "dataset": "Natural Earth 1:50m land, version 4.1.0",
+  "route": "Vector paths recovered from user-supplied v1 Figure_1.svg; affine inverse of its longitude/latitude axes. This is a derived regional geometry file, not the original shapefile.",
+  "archived_svg_sha256": "f3c5a8b4d6448bb59351d6f9d90269a23d549b3a618189dbd69375f498c6c30b",
+  "license_as_recorded_in_input_metadata": "Public domain",
+  "original_source_page": "https://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-land/",
+  "terms_as_recorded": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "polygon_count": 382,
+  "precision": "SVG coordinates rounded to 1e-6 point in the input; recovered lon/lat approximately 2e-7 degree precision.",
+  "purpose": "Land context only, no scientific point estimates are digitized from figures."
+}

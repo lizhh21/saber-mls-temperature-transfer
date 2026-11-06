@@ -1,0 +1,18 @@
+上传顺序
+
+1. 本地将代码、数据解压为同级目录；运行 README 的一键命令，保留 BUILD_REPORT.json。
+2. 登录 GitHub，新建绘图仓库，或更新已有论文仓库的绘图模块。使用 Add file → Upload files 上传展开源码；README.md 和 run_figures.py 应位于根目录。
+3. 登录 Zenodo 正式站点，分别建立 Dataset 和 Software 草稿；如对应记录已发布，建立 New version。各自预留版本 DOI 并保存草稿。
+4. Dataset 上传 GRL_Figure_Data_v2.zip，图集可作为配套文件；已有完整研究数据记录应保留其他原研究材料。
+5. 填写 publication_metadata.json 的真实作者、单位、两个版本DOI、仓库地址、日期、实际许可证。完成 CITATION.cff 和正式许可证全文，更新 README 的可访问链接。
+6. GitHub 建立固定 Release，例如 v2.0.0，记录完整 commit SHA。从 Release 下载 Source code (zip)，将此确切源码包上传 Software 记录。
+7. 两条 Zenodo 记录互相关联。预览无误后公开发布，退出登录检验 DOI 下载。论文引用各自版本 DOI。
+
+本包不包含训练、推理或重新计算bootstrap的代码。作者与许可证尚未选择，DOI与仓库地址尚未生成。不要使用旧稿中覆盖完整流程的归档声明来描述本绘图库。
+
+GitHub网页单文件25 MiB，每次至多100个文件。源码远低于该限制。数据包和高分辨率图件放Zenodo即可。
+
+官方说明
+https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
+https://help.zenodo.org/docs/deposit/create-new-upload/
+https://zenodo.org/help/versioning

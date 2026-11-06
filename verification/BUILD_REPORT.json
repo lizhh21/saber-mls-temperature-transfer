@@ -1,0 +1,244 @@
+{
+  "status": "PASS",
+  "input_payload_hashes_checked": 30,
+  "numerical_values_checked": 30608,
+  "maximum_absolute_error": 5.684341886080802e-14,
+  "pooled_1pct_transfer_rmse_K": 4.358792314279132,
+  "pooled_1pct_scratch_rmse_K": 4.709456224208918,
+  "pooled_1pct_reduction_percent": 7.445953274333495,
+  "annual_supported_out_of_9": {
+    "7": 4,
+    "14": 4
+  },
+  "Hunga_supported_out_of_9": 8,
+  "monthly_pressure_cells": 8496,
+  "monthly_pressure_full_range_K": [
+    -3.487643206052764,
+    2.4763470053067422
+  ],
+  "monthly_pressure_cells_outside_main_color_limits": 537,
+  "bootstrap_recomputed": false,
+  "model_training_or_inference_performed": false,
+  "pvalues_created": false,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "matplotlib": "3.10.8",
+  "check_groups": [
+    {
+      "check": "Bootstrap point estimates",
+      "values": 432,
+      "max_abs_error": 6.869504964868156e-15
+    },
+    {
+      "check": "Hunga primary estimates",
+      "values": 45,
+      "max_abs_error": 1.2212453270876722e-15
+    },
+    {
+      "check": "Monthly model baseline comparison",
+      "values": 10368,
+      "max_abs_error": 2.6645352591003757e-15
+    },
+    {
+      "check": "Monthly observed contrast",
+      "values": 2537,
+      "max_abs_error": 1.7763568394002505e-15
+    },
+    {
+      "check": "Monthly observed mean",
+      "values": 2537,
+      "max_abs_error": 5.684341886080802e-14
+    },
+    {
+      "check": "Monthly reference mean",
+      "values": 2832,
+      "max_abs_error": 5.684341886080802e-14
+    },
+    {
+      "check": "Monthly support",
+      "values": 3456,
+      "max_abs_error": 0.0
+    },
+    {
+      "check": "Pressure corrected-reference contrast",
+      "values": 1062,
+      "max_abs_error": 4.440892098500626e-16
+    },
+    {
+      "check": "Pressure grid in model and MLS statistics",
+      "values": 59,
+      "max_abs_error": 2.842170943040401e-14
+    },
+    {
+      "check": "Pressure pretraining contrast",
+      "values": 1062,
+      "max_abs_error": 9.71445146547012e-17
+    },
+    {
+      "check": "Pressure profiles era5_last_rmse_k",
+      "values": 1062,
+      "max_abs_error": 1.4210854715202004e-14
+    },
+    {
+      "check": "Pressure profiles era5_offset_rmse_k",
+      "values": 1062,
+      "max_abs_error": 1.7763568394002505e-15
+    },
+    {
+      "check": "Pressure profiles scratch_rmse_k",
+      "values": 1062,
+      "max_abs_error": 8.881784197001252e-16
+    },
+    {
+      "check": "Pressure profiles source_climatology_rmse_k",
+      "values": 1062,
+      "max_abs_error": 1.2434497875801753e-14
+    },
+    {
+      "check": "Pressure profiles transfer_rmse_k",
+      "values": 1062,
+      "max_abs_error": 8.881784197001252e-16
+    },
+    {
+      "check": "W3 independently recomputed model contrast",
+      "values": 4,
+      "max_abs_error": 5.551115123125783e-17
+    },
+    {
+      "check": "W3 independently recomputed observed contrast",
+      "values": 4,
+      "max_abs_error": 4.440892098500626e-16
+    },
+    {
+      "check": "data/tables/annual_and_band_summary.csv contrasts",
+      "values": 288,
+      "max_abs_error": 3.552713678800501e-15
+    },
+    {
+      "check": "data/tables/annual_and_band_summary.csv era5_last_rmse_k",
+      "values": 72,
+      "max_abs_error": 1.7763568394002505e-15
+    },
+    {
+      "check": "data/tables/annual_and_band_summary.csv era5_offset_rmse_k",
+      "values": 72,
+      "max_abs_error": 8.881784197001252e-16
+    },
+    {
+      "check": "data/tables/annual_and_band_summary.csv scratch_rmse_k",
+      "values": 72,
+      "max_abs_error": 8.881784197001252e-16
+    },
+    {
+      "check": "data/tables/annual_and_band_summary.csv source_climatology_rmse_k",
+      "values": 72,
+      "max_abs_error": 1.7763568394002505e-15
+    },
+    {
+      "check": "data/tables/annual_and_band_summary.csv support",
+      "values": 72,
+      "max_abs_error": 0.0
+    },
+    {
+      "check": "data/tables/annual_and_band_summary.csv transfer_rmse_k",
+      "values": 72,
+      "max_abs_error": 8.881784197001252e-16
+    },
+    {
+      "check": "data/tables/main_rmse_summary.csv contrasts",
+      "values": 72,
+      "max_abs_error": 3.552713678800501e-15
+    },
+    {
+      "check": "data/tables/main_rmse_summary.csv era5_last_rmse_k",
+      "values": 18,
+      "max_abs_error": 8.881784197001252e-16
+    },
+    {
+      "check": "data/tables/main_rmse_summary.csv era5_offset_rmse_k",
+      "values": 18,
+      "max_abs_error": 8.881784197001252e-16
+    },
+    {
+      "check": "data/tables/main_rmse_summary.csv scratch_rmse_k",
+      "values": 18,
+      "max_abs_error": 8.881784197001252e-16
+    },
+    {
+      "check": "data/tables/main_rmse_summary.csv source_climatology_rmse_k",
+      "values": 18,
+      "max_abs_error": 8.881784197001252e-16
+    },
+    {
+      "check": "data/tables/main_rmse_summary.csv support",
+      "values": 18,
+      "max_abs_error": 0.0
+    },
+    {
+      "check": "data/tables/main_rmse_summary.csv transfer_rmse_k",
+      "values": 18,
+      "max_abs_error": 0.0
+    }
+  ],
+  "figure_selection": "all",
+  "formats": [
+    "png",
+    "pdf",
+    "svg"
+  ],
+  "png_dpi": 600,
+  "output_sha256": {
+    "figures/Figure_1.pdf": "0869e63796f0d22caa9c9791ed70f14f6a6f2086befde3342d8f17052c68ca51",
+    "figures/Figure_1.png": "4437a50468e94efa4f69d0fbf4bb5bea13402838ef21aa5c247067c8eafd0e84",
+    "figures/Figure_1.svg": "6c2d92723ab4dea5c356dba9f2b81b3d3eaa87ccf09e0af7b71a920719e04adf",
+    "figures/Figure_2.pdf": "1e4584cd2d5e0f1ad63e584b346b06288fb6e9e7441b2e5836d7725eb75a900b",
+    "figures/Figure_2.png": "5063b6a8ffee56429624e8a55e6d5d64dedb33a6dff275221d2986234ac79988",
+    "figures/Figure_2.svg": "deaacff05c95e153616b6caa1b89fb45c3ffd2b94baecf22c3dfb35cf2f02633",
+    "figures/Figure_3.pdf": "997c18f16409e1442e2e87d1ca8bf2ef89acaaf319ac5962374d15a3e76914c0",
+    "figures/Figure_3.png": "7b55dd9dfa25c6ebb1787e7973881b5b5624d7fd32722cef2b647ac848ded839",
+    "figures/Figure_3.svg": "4c51ce08cae3c9e35410e5918b98f83eb4e6ea6ee70e980f5369c33a20cba965",
+    "figures/Figure_4.pdf": "81eded5b220b571ab9854b7dd4a65667774be77de11251e7e5754fedf584856f",
+    "figures/Figure_4.png": "1bcf9cb9ed02d5fcd0f0c47040517f7788f5a9e7e5ecfc171ad3b15b1609aea9",
+    "figures/Figure_4.svg": "83d07c08e279121e0533ce43f3ba01062d5cb82d7a31c713a3ec144b9b1651fe",
+    "figures/Figure_S1.pdf": "a9e94b897cf8c5df543645b7b988b3486bb0fa4f86fa9ac6ed07ac4aec471984",
+    "figures/Figure_S1.png": "e4b16ee5ffd29546c5579d8613a05d0632cd38a0da842b033b483f6efb3cc636",
+    "figures/Figure_S1.svg": "bd70a54c93ee38fe79638314d4172ef0fe6a23078cd274a3301d457e50337002",
+    "figures/Figure_S10.pdf": "53ce0bf1bf729541896910463faf39470af68c93a336d3e354c1aa6c035a805b",
+    "figures/Figure_S10.png": "e166b1e59dceb48a39613bef835c99f0b2dbba653d9fac8c6930c542514d2d4f",
+    "figures/Figure_S10.svg": "fb4f872423bbf5afd8a7b78a79258f98da1f87ca3f271549f0d1bbc472d58823",
+    "figures/Figure_S11.pdf": "85f76df0404ce4dcdcbf24609688c0135efbdc235493063f739b9b2b8df821a5",
+    "figures/Figure_S11.png": "419ac2d2c19499307023c1da5a6af8219be0226a2f43424be2373fc14efd4162",
+    "figures/Figure_S11.svg": "cdc8a31571469a234b45fd16db3a5a49c4ec4a0d3f4001f15f1b4c367f4b5c54",
+    "figures/Figure_S12.pdf": "d0fcf6fc851ea16f9b0efb2a2765779f471bee45582616c58b3decb946064bc7",
+    "figures/Figure_S12.png": "81aeaa55a6e438a2e2d6170815a1868fa1c3e50ce9c6986f8920fab70463363f",
+    "figures/Figure_S12.svg": "d93817cf130ca513d097735e5428e259fbb14e06f304d077ab6e7bea7df3248a",
+    "figures/Figure_S2.pdf": "04bce36ebee6c43c0788da4f18e877aafc6e1049b5d586165e5072de6c47c783",
+    "figures/Figure_S2.png": "fa668d9865f861f13d29b429a77e422b12c365d48d6f1649b912bd7b366139d2",
+    "figures/Figure_S2.svg": "d93e68e53ee1e26b9cac526c5cf2129f89753cd147c7cc062929d95cb954a259",
+    "figures/Figure_S3.pdf": "d46b59b5838168af2ba79d3c1a58162a65c15bf93f520e2f589564b5ff801873",
+    "figures/Figure_S3.png": "ee74b28ade1eb076a302b9e21f1c2da32fc9d264f9629f86243bda5fa26b4192",
+    "figures/Figure_S3.svg": "415a68880d9302cac08e65797b92a52a246c00de253072a447372dd9f56e5d98",
+    "figures/Figure_S4.pdf": "d1eee6636a312a4591bdaab4564bff75dcc851a0cb787cfedeb7692a9083d085",
+    "figures/Figure_S4.png": "2dac29bf54a426db77083d776148538d415784531b62e03c6cdafe8b2c4e2e3f",
+    "figures/Figure_S4.svg": "c2dd5b1820d86fd038c29e4b58e61507aee9f06029e15b9b4e8f39abc7e6f4d4",
+    "figures/Figure_S5.pdf": "0726cda075f3804342c319663a621ff9469bd430b6482e8b1a83318132df1dcd",
+    "figures/Figure_S5.png": "37fa64fb182a244fe08666872c472489ab9a0c7fb0fc9c222fe0366b9a828daf",
+    "figures/Figure_S5.svg": "8d65589c882eac55b61575e8c83a452a227ab41f4396f5ef885ecba10904e6e2",
+    "figures/Figure_S6.pdf": "7ce120dda8b17ae6336246c68656891a3fcb4761efa03a9b829243a8c814b814",
+    "figures/Figure_S6.png": "54a7731fa55b8022d3907287989b2a2ac6b291f33fccca258762320d9be6aa3b",
+    "figures/Figure_S6.svg": "dcfac65b54ed8147d4f8dacb1212053c13422555b290be8f6a332cb48d0060e8",
+    "figures/Figure_S7.pdf": "011751e79d66ceb0f663625ef82fee1df69157cd9f66c521b630ded1eafed71d",
+    "figures/Figure_S7.png": "64e8170f29e5e59d56d48084bdcc43c06325e52bc1ecd2c03f58ffaafdcc6e47",
+    "figures/Figure_S7.svg": "bf448af71d85ac40361c2a5b90d3314552042d3d97de30ea55f4c4782c6de675",
+    "figures/Figure_S8.pdf": "de660ba3291fd1636abf5876a13089f35683697b81640980363eb319fafbafa6",
+    "figures/Figure_S8.png": "f6fe4ba727c4227db23a897ddd770a6ebdebecc6179af56244a54fbc2adcd0f7",
+    "figures/Figure_S8.svg": "269b87033f7ab63582219934affd32ea84c4c9f8f63a5ba2744cc7015dd1e13d",
+    "figures/Figure_S9.pdf": "bf6ce452f39cb7af25ba3a8c1fb0685a047ac538372720142afd5e242c71a0e9",
+    "figures/Figure_S9.png": "69727a40730d9a109d4106309d8f590827ee24306a599c162afe2cecf1c36356",
+    "figures/Figure_S9.svg": "c9be8fa0517fd7de6f664e90c44ae86902a9b76d7a85b01c8b5d4a1625d0777e",
+    "tables/Hunga_all_budgets_bands.csv": "dc299b8401dd04bee4c1f0a6b368b6ea77136a32c747fa16c13aa266231060fc",
+    "tables/W3_recomputed_aligned_contrasts.csv": "d3defc89a08dd7302731a2ac34a34935e51c72da7e83ef608320ecbe3d8b6507",
+    "tables/monthly_pressure_all_budgets.csv": "8b2aff098f8bd66115b54271e20eb5350f1afc6b6d585b7b1ad76f16ac7ae5fb"
+  }
+}

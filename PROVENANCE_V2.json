@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "source_archives": [
+    {
+      "name": "02-GRL_Figure_Data_v1-1-.zip",
+      "sha256": "0919b7931f278f5b40b6b9897e20a24f86361a2e997590278ff8a857c14ce498"
+    },
+    {
+      "name": "03-GRL_Figures_Redrawn_v1.zip",
+      "sha256": "59abb1562eed8bb410681d3d2172950206673ea23607635c3e692ae1a81a60d6"
+    }
+  ],
+  "preserved_v1_payloads": 30,
+  "scope": "Frozen-statistics redraw and numerical verification; no training, inference or bootstrap rerun.",
+  "scientific_quantities_digitized_from_images": false,
+  "map_route": "Regional land vector recovered from original supplied SVG; see software assets/MAP_PROVENANCE.json."
+}

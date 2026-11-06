@@ -1,0 +1,13 @@
+# Template only: fill real names and values, then save as CITATION.cff.
+cff-version: 1.2.0
+message: "Please cite the specific archived software version and companion data."
+title: "SABER–MLS temperature prediction figure reproduction"
+version: "2.0.0"
+type: software
+authors:
+  - family-names: "FILL REAL FAMILY NAME"
+    given-names: "FILL REAL GIVEN NAMES"
+doi: "FILL SOFTWARE VERSION DOI"
+repository-code: "FILL GITHUB REPOSITORY URL"
+date-released: "FILL YYYY-MM-DD"
+license: "FILL SELECTED SPDX CODE LICENSE"

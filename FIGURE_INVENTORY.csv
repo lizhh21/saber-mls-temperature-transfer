@@ -1,0 +1,17 @@
+figure,inputs_relative_to_data_unless_marked,quantity
+Figure_1,data/pressure/figure1b_pressure_stats.csv;data/pressure/figure1c_pressure_stats.csv;data/pressure/monthly_pairing_coverage.csv;software assets/archived_land_polygons.json,"Development mean/RMS differences and correlations, actual monthly counts, fixed experimental roles"
+Figure_2,statistics/model_daily.npz;statistics/baseline_daily.npz;data/evidence/original_paired_block_bootstrap.csv;data/tables/baseline_interval_summary.csv,"Pooled 2022–2024 RMSE, 14-day ordinary intervals, original fixed-node band scores"
+Figure_3,statistics/model_daily.npz;data/pressure/figure1b_pressure_stats.csv;derived/monthly_pressure_all_budgets.csv,"Monthly per-node seed-averaged RMSE contrasts, log pressure, separate pooled profiles"
+Figure_4,data/evidence/original_paired_block_bootstrap.csv;data/frozen/Hunga_verified_14day_intervals.csv;data/frozen/W3_observed_temperature_and_model_RMSE_by_pressure.csv;statistics/model_daily.npz;statistics/MLS_daily.npz,Separate annual/Hunga familywise intervals and physical-band observational/model contrasts
+Figure_S1,data/evidence/original_paired_block_bootstrap.csv;statistics/model_daily.npz,Exploratory band intervals and pooled band point estimates
+Figure_S2,data/evidence/original_paired_block_bootstrap.csv,Ordinary MAE and signed-bias intervals
+Figure_S3,data/pressure/sensitivity_pressure_stats.csv;data/pressure/balanced_yearmonth_pressure_stats.csv;data/pressure/yearmonth_pressure_stats.csv,"Development-pair sensitivity, true pressure cells, support fractions"
+Figure_S4,data/evidence/calibration_parameters.csv;data/tables/monthly_model_baseline_comparisons.csv;data/tables/monthly_main_win_counts.csv;data/tables/pressure_context_and_skill.csv,"Offset envelopes, monthly references, descriptive month/node counts"
+Figure_S5,data/evidence/used_mls_sources.csv;data/tables/calibration_sample_counts.csv;fixed v22 experimental counts,"Observation monthly support, product subversions, train/validation profile roles"
+Figure_S6,data/tables/monthly_model_baseline_comparisons.csv;statistics/model_daily.npz,Monthly model contrasts for all 48 months; plus marks are descriptive
+Figure_S7,data/evidence/original_paired_block_bootstrap.csv,Annual adjusted intervals and 2025 ordinary exploratory intervals
+Figure_S8,data/frozen/Hunga_verified_14day_intervals.csv,Pointwise and family9 Hunga intervals
+Figure_S9,statistics/model_daily.npz;statistics/baseline_daily.npz;derived/Hunga_all_budgets_bands.csv,"All budgets and original fixed-node bands, Hunga point estimates"
+Figure_S10,data/frozen/MLS_monthly.csv,"Observed MLS matching-month contrast, 2022–2024 native diagnostic"
+Figure_S11,statistics/model_daily.npz;statistics/baseline_daily.npz;derived/monthly_pressure_all_budgets.csv,"1% monthly RMSE and pressure-resolved contrasts, 2022–2024"
+Figure_S12,data/frozen/ERA5_monthly_native_levels.csv,"Native L137 levels 1–50, matching-month 2012–2021 reference"
